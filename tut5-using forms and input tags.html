@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input tags</title>
+    <!-- the inputs that we give from the frontend will be taken and processed by the backend which is attached to the file by us by using action form and then by connecting it to the file. -->
+    <form action="backend.php"></form>
+<div>
+    <h2>This is an Html Tutorial</h2>
+    <!-- div is used for separating the two input tags and hence instead of using br we use div -->
+    Name :<input type="text" name="myName">
+</div>
+<br>
+<div>
+    Email :<input type="email" name="myEmail">
+</div>
+<br>
+<div>
+    Date :<input type="date" name="myDate">
+</div>
+<br>
+<div>
+    Bonus :<input type="number" name="myBonus">
+</div>
+<br>
+<div>
+    Are you eligible :<input type="checkbox" name="myEligibility">
+</div>
+<br>
+<div>
+    Gender :Male <input type="radio"name="myGender" > Female <input type="radio"name="myGender" > Other <input type="radio"name="myGender" >
+</div>
+<br>
+<div>
+  Write about yourself here <br>
+  <textarea name="" id="" cols="90" rows="10"></textarea>
+</div>
+<br>
+<div>
+ <input type="submit" value="Submit Now">
+ <input type="reset" name="Reset everything" >
+ <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swf" selected>Swift</option>
+            </select>
+</div>
+<!-- all of the input that we give here is ultimately stored by the backend 
+the name attribute here is essentially used for storing the variable that we input and this goes to the backend -->
+</head>
+<body>
+    
+</body>
+</html>

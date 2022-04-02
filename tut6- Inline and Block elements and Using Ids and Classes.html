@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Inline and Block Elements</title>
+</head>
+<body>
+    <p>  Paragraphs are block Elements and have a specified amount of space that they take. </p>
+    <span>Span on the other hand are inline elements and can be extended</span> 
+    <span>Hence the line can be extended unlike paragraphs which are block elements</span>
+    <div style="border: 2px solid royalblue;">This is a Paragraph and the whole block occupied by the block is in blue </div> 
+    <span style="border: 2px solid rgb(112, 235, 112) ;">this on the other hand only colors the aea surrounded by the text</span>
+
+    <!-- using emmet and defining classes and ID -->
+
+    <h3>Ids and Classes</h3>
+
+    <!-- a Unique id is to be given to all elements as Id can not be repeated, but a class can be given to multiple elements of the same kind and multiple elementscan also be inserted inside a single class -->
+    <!-- what a class essentially does is it gives certain attributes to the elements inside of the class whereas an id allows  us to call the elements inside of it, essentially by giving it a unique name -->
+    <!-- the properties of a class can be defined by us by using CSS -->
+    <div id="Mainbox" class="redBg">
+        this is the Mainbox
+    </div>
+    <span class="redBg blackBorder"></span>
+
+    <!-- to call an Id or a class by using emmet -->
+    <!-- . is for class and # is for id -->
+    <!-- span.RedbG.blackborder -->
+    <span class="RedbG blackborder"></span>
+    
+    <!-- #MainStream.redBg -->
+    <div id="MainStream" class="redBg"></div>
+    <!-- span#mainstream.Blackborder -->
+    <span id="mainstream" class="Blackborder"></span>
+
+<!-- div.redbg.blackborder*4 -->
+<div class="redbg blackborder"></div>
+<div class="redbg blackborder"></div>
+<div class="redbg blackborder"></div>
+<div class="redbg blackborder"></div>
+</body>
+</html>

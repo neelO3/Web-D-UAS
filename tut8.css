@@ -1,0 +1,5 @@
+/* here p is the selector and here we can use it to select a class or an id , color is the attribute that we are supposed to give to the id that we have selected, where the code is attached to the markup/HTML code */
+p {
+    color: aqua;
+    background-color :purple;
+    }

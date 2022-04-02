@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INLINE INTERNAL AND EXTERNAL css</title>
+</head>
+<style>
+    /* this is for internal CSS connection, which is defined before thebody of the code */
+    p {
+        color: blanchedalmond;
+        background-color: blueviolet !important;
+        /* the important sign basically shows that although the code for internal css has been written first we'll be giving it a higher priority */
+    }
+
+</style>
+<!-- here we ae using an external CSS file which we are attaching separately to the HTML file -->
+<link rel="stylesheet" href = "tut8.css">
+<body>
+    <h3>THIS IS A CSS TUTORIAL</h3>
+    
+    <!-- <p style=" color : red; background-color : yellow"> This is an example of inline CSS use, as we are styling the sheet inside the html code</p> -->
+    <p>here we will write the codes using Internal css as we are using the style sheet that we have defined earlier
+        remember that the style sheet that has been defined later will be given more importance.
+    </p>
+</body>
+
+</html>

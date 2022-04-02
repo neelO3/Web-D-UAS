@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FONTS</title>
+    
+</head>
+<!-- We can not get these fonts unless we specify that we are using these fonts from the web -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+<style>
+    /* this is known as a stack of fonts, as some fonts are pre downloaded in computers and some fonts have to be downloaded through the internet, */
+    /* hence for these type of fonts there is a possibility that the font is not available in the computer, hence we use a stack of fonts so that in case one of the fonts is not available, we'll use the other one */
+    p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    /* we can use google fonts to copy certain style sheets that can be used by copying the link through google fonts */
+    #a1{
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        line-height: 2rem;
+        /* a pixel is 1/96 of an inch */
+    }
+    span{
+        font-weight: bold;
+        font-style: italic;
+    }
+</style>
+<body>
+    <h3>Using Css fonts</h3>
+    <p>here we are checking <span>CSS</span> fonts, it is a very interesting process</p>
+    <p id="a1">Checking the fonts is a very interesting process</p>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors</title>
+</head>
+<style>
+    .container{
+        border: 5px solid red ;
+        background-color: chartreuse;
+        margin: 34px auto;
+        padding: 34px;
+        width: 600px;
+    }
+    .btn{
+        background-color: rgb(48, 225, 238);
+        padding: 10px;
+        border: 2px solid black;
+        cursor: pointer;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+
+    a{ 
+        /* to get rid of the blue underline that is present in hyperlink text */
+        text-decoration:dashed;
+        color: black;
+        font-style:oblique;
+    }
+    a:hover{
+        color: yellow;
+        background-color:rgb(3, 56, 59);
+    }
+    /* changes colors after the site has been visited */
+    a:visited{
+        background-color: rgb(138, 8, 8);
+    }
+    a:active{
+        background-color:rgb(121, 11, 194);
+
+    }
+    .btn:hover{
+            color:darkgoldenrod;
+            background-color:rgb(223, 245, 201);
+            border: 2px solid black;
+        }
+
+</style>
+<body>
+    <div class="container" id="Cont1">
+        <h2>Styling in CSS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, inventore ab. Cum, numquam. Molestiae, maxime autem ipsa iste itaque dicta ratione impedit velit modi soluta consequuntur nihil harum temporibus dolores amet? Accusamus, laborum iste.</p>
+        <a href="https://www.instagram.com" class="btn">read more</a>
+        <button class="btn"> contact us</button>
+    </div>
+</body>
+</html>
